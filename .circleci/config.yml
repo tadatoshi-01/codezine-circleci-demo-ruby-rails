@@ -1,5 +1,5 @@
 version: 2.1
-orbs:
+orbs: 
   ruby-orbs: sue445/ruby-orbs@1.3.10
 
 executors:
