@@ -1,0 +1,9 @@
+  deploy:
+    docker:
+      - image: buildpack-deps:trusty
+    steps:
+      - checkout
+      - run:
+          name: Master を Heroku にデプロイ
+          command: |
+            git push https://heroku:97107981-49b5-4414-8f88-a6314ddcae9d@git.heroku.com/hirono.git master
